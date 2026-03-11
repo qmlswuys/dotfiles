@@ -1,0 +1,45 @@
+* {
+  all: unset;
+  font-size: 16px;
+  font-family: "FiraCode Nerd Font Mono";
+}
+
+#waybar {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+#workspaces {
+  margin-right: 10px;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+#workspaces button.active {
+  background-color: rgba(122, 162, 247, 0.9);
+  color: #1e1e2e;
+}
+
+
+#temperature,
+#cpu,
+#memory,
+#load {
+  margin-right: 10px;
+}
+
+
+
+
+menu {
+  border-radius: 5px;
+  background-color: rgba(26, 27, 38, 0.9);
+  padding: 5px 10px;
+}
+
+menuitem:hover {
+  background-color: rgba(122, 162, 247, 0.9);
+  color: #1e1e2e;
+}
