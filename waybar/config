@@ -1,12 +1,14 @@
 {
+  "height": 35,
+  "margin-top": 2,
   "modules-left": ["niri/workspaces"],
   "modules-center": ["niri/window"],
   "modules-right": ["pulseaudio", "cpu", "memory", "clock", "tray"],
   "spacing": 0,
 
   "niri/window": {
-    "icon": true,
-    "avc": 1
+    "format": "{app_id}",
+    "icon": true
   },
 
   "pulseaudio": {

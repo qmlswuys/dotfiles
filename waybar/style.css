@@ -2,45 +2,54 @@
 
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: "JetbrainsMono Nerd Font", monospace, FontAwesome;
+  font-family: "JetbrainsMono Nerd Font", monospace;
+  font-size: 15px;
 }
 
 window#waybar {
-  background: rgba(255, 255, 255, 0);
-  border: none;
-  color: #f8f8f8;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #workspaces {
-  padding: 0;
-  margin: 0;
   background-color: transparent;
+  padding: 0;
 }
 
 #workspaces button {
-  background-color: rgba(248, 248, 248, 0.1);
-  color: #f8f8f8;
-  border-radius: 15px;
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  margin-right: 2px;
   border: none;
 }
 
-/* 聚焦状态 - 当前使用的workspace */
 #workspaces button.focused,
 #workspaces button.active {
-  background-color: rgba(248, 248, 248, 0.4);
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 -3px 0 #7fdfff;
 }
 
-#window {
-  padding: 0 5px;
+#workspaces button:hover {
+  background-image: none;
+  border: none;
+  box-shadow: inset 0 0 10px #7fdfff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .module {
-  background-color: rgba(248, 248, 248, 0.2);
+  background-color: rgba(20, 20, 20, 0.8);
   min-width: 60px;
   padding: 0 5px;
-  border-radius: 10px;
-  margin: 0 8px;
+  margin: 0 5px;
+  border-radius: 12px;
+}
+
+#window {
+  padding: 0 10px;
+}
+
+window#waybar.empty #window {
+  opacity: 0;
 }
 
 #pulseaudio {
