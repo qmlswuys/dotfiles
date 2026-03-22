@@ -4,6 +4,9 @@
   /* `otf-font-awesome` is required to be installed for icons */
   font-family: "JetbrainsMono Nerd Font", monospace;
   font-size: 15px;
+  text-shadow:
+    0 0 5px rgba(255, 255, 255, 0.2),
+    1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
 window#waybar {
@@ -22,6 +25,7 @@ window#waybar {
   border-radius: 12px;
   margin-right: 2px;
   border: none;
+  transition: all 0.3s ease;
 
   background: linear-gradient(
     145deg,
@@ -31,7 +35,6 @@ window#waybar {
   box-shadow:
     inset 0 2px 1px rgba(127, 223, 255, 0.2),
     inset 0 -1px 0 rgba(255, 255, 255, 0.05);
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
 #workspaces button.focused,
@@ -41,7 +44,6 @@ window#waybar {
     inset 0 -3px 0 #7fdfff,
     inset 0 2px 1px rgba(127, 223, 255, 0.2),
     inset 0 -1px 0 rgba(255, 255, 255, 0.05);
-  text-shadow: 0 0 8px rgba(127, 223, 255, 0.5);
 }
 
 #workspaces button:hover {
@@ -49,8 +51,6 @@ window#waybar {
   box-shadow:
     inset 0 0 10px rgba(127, 223, 255, 0.4),
     inset 0 2px 0 rgba(255, 255, 255, 0.2);
-  text-shadow: 0 0 8px rgba(127, 223, 255, 0.6);
-  transition: all 0.3s ease;
 }
 
 #window {
@@ -83,7 +83,4 @@ window#waybar.empty #window {
   box-shadow:
     inset 0 2px 1px rgba(127, 223, 255, 0.2),
     inset 0 -1px 0 rgba(255, 255, 255, 0.05);
-  text-shadow:
-    0 0 5px rgba(255, 255, 255, 0.2),
-    1px 1px 0px rgba(0, 0, 0, 0.4);
 }
