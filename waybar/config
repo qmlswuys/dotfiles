@@ -45,6 +45,6 @@
     "tooltip": false
   },
   "tray": {
-    "spacing": 0
+    "spacing": 5
   }
 }

@@ -8,7 +8,7 @@
 | 窗口管理器 | niri |
 | 终端模拟器 | foot |
 | 状态栏 | waybar |
-| 字体 | JetBrainsMono Nerd Font, Noto Sans CJK，monaspace |
+| 字体 | JetBrainsMono Nerd Font, Noto Sans CJK,monaspace |
 | 壁纸 | swaybg wbg |
 | 文件管理器 | yazi |
 | Shell | fish |
