@@ -2,7 +2,7 @@
   "height": 35,
   "margin-top": 2,
   "modules-left": ["niri/workspaces"],
-  "modules-center": ["niri/window"],
+  "modules-center": ["niri/window", "mpd"],
   "modules-right": ["pulseaudio", "cpu", "memory", "clock", "tray"],
   "spacing": 0,
 
@@ -11,9 +11,22 @@
     "icon": true
   },
 
+  "mpd": {
+    "format": "  {stateIcon} {artist} - {title} {singleIcon} ",
+    "on-click": "mpc toggle",
+    "on-scroll-up": "mpc next",
+    "on-scroll-down": "mpc prev",
+    "on-click-right": "mpc single",
+    "smooth-scrolling-threshold": 1,
+    "single-icons": {
+      "on": ""
+    },
+    "tooltip": false
+  },
+
   "pulseaudio": {
     // "scroll-step": 1, // %, can be a float
-    "format": "{volume}% {icon} {format_source}",
+    "format": "{volume}% {icon}  {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": " {icon} {format_source}",
     "format-muted": " {format_source}",
@@ -45,6 +58,6 @@
     "tooltip": false
   },
   "tray": {
-    "spacing": 5
+    "spacing": 4
   }
 }

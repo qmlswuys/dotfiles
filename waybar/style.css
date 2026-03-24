@@ -82,6 +82,21 @@ window#waybar.empty #window {
   min-width: 100px;
 }
 
+#mpd {
+  background:
+    linear-gradient(
+      120deg,
+      transparent 35%,
+      rgba(255, 255, 255, 0.4) 50%,
+      transparent 65%
+    ),
+    linear-gradient(145deg, rgba(55, 65, 80, 0.8), rgba(20, 20, 25, 0.9));
+  background-size:
+    200% 100%,
+    100% 100%;
+  animation: sheen 5s ease-in-out infinite;
+}
+
 .module {
   min-width: 60px;
   padding: 0 5px;
