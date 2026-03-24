@@ -1,0 +1,82 @@
+2026-03-24T01:13:37 exception: Failed to open "/home/daykrois/.config/mpd/state": No such file or directory
+2026-03-24T01:15:47 update: added /Sugar Girl-The Cure.mp3
+2026-03-24T01:15:47 update: added /Supersonic-Oasis.mp3
+2026-03-24T01:15:47 update: added /To The Sky-The Cure.mp3
+2026-03-24T01:15:47 update: added /With Or Without You-U2.mp3
+2026-03-24T01:19:13 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T01:24:16 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T01:24:32 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T01:24:35 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T01:24:35 exception: Not playing
+2026-03-24T01:24:36 exception: Not playing
+2026-03-24T01:24:36 exception: Not playing
+2026-03-24T01:24:36 exception: Not playing
+2026-03-24T01:24:38 exception: Not playing
+2026-03-24T01:24:38 exception: Not playing
+2026-03-24T01:24:38 exception: Not playing
+2026-03-24T01:24:39 exception: Not playing
+2026-03-24T01:24:39 exception: Not playing
+2026-03-24T01:24:39 exception: Not playing
+2026-03-24T01:24:39 exception: Not playing
+2026-03-24T01:24:39 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:40 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:41 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:42 exception: Not playing
+2026-03-24T01:24:43 exception: Not playing
+2026-03-24T01:24:43 exception: Not playing
+2026-03-24T01:24:43 exception: Not playing
+2026-03-24T01:24:43 exception: Not playing
+2026-03-24T01:24:43 exception: Not playing
+2026-03-24T01:24:44 exception: Not playing
+2026-03-24T01:24:44 exception: Not playing
+2026-03-24T01:24:44 exception: Not playing
+2026-03-24T01:25:41 exception: Failed to commit /home/daykrois/.config/mpd/state: File exists
+2026-03-24T01:25:41 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T01:25:41 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T01:30:07 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T10:38:27 mixer: Failed to read mixer for "default detected output": no such mixer control: PCM
+2026-03-24T10:38:51 output: Failed to open mixer for "default detected output": no such mixer control: PCM
+2026-03-24T10:42:07 player: played "Sugar Girl-The Cure.mp3"
+2026-03-24T10:42:38 output: Failed to open mixer for "default detected output": no such mixer control: PCM
+2026-03-24T10:46:11 player: played "Supersonic-Oasis.mp3"
+2026-03-24T10:46:49 player: played "Supersonic-Oasis.mp3"
+2026-03-24T10:52:16 player: played "To The Sky-The Cure.mp3"
+2026-03-24T10:57:59 player: played "With Or Without You-U2.mp3"
+2026-03-24T11:02:55 player: played "With Or Without You-U2.mp3"
+2026-03-24T11:07:50 player: played "With Or Without You-U2.mp3"
+2026-03-24T11:12:46 player: played "With Or Without You-U2.mp3"
+2026-03-24T11:15:05 player: played "With Or Without You-U2.mp3"
+2026-03-24T11:17:41 player: played "With Or Without You-U2.mp3"
