@@ -1,6 +1,6 @@
 spawn-sh-at-startup "wl-paste --watch cliphist store"
 //spawn-sh-at-startup "wbg ~/Pictures/wallpapers/space_bg.jpg"
-spawn-sh-at-startup "swaybg -i ~/.config/niri/wallpapers/goku.jpeg"
+spawn-sh-at-startup "swaybg -i ~/.config/niri/wallpapers/space_bg.jpg"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 cursor {
     xcursor-theme "Bibata-Modern-Ice"
